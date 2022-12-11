@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.page .box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px ;
+    width: 250px;
+    min-height: 400px;
+    text-align: center;
+    font-family:sans-serif;
+   
+}
+.page .box  img{
+width: 100%;
+margin: 10px auto;
+border-radius: 10px;
+
+}
+.page .box h3{
+    color: darkblue;
+}
+.page .box p{
+   font-weight: 400;
+    color: rgb(211, 211, 211);
+}
